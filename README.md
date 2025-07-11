@@ -41,13 +41,23 @@ Responsive styles are handled using `@media(max-width: 700px)` for mobile views.
 ## 📁 Folder Structure
 
 daraz-homepage-clone/
-│
 ├── index.html
 ├── style.css
 ├── README.md
-└── product_img
-├── logo
-├── screenshots
+├── product_img/
+│   ├── sunglasses.png
+│   ├── fan.png
+│   └── ...
+├── logo/
+│   └── logo.png
+└── screenshots/
+    ├── desktop-1.png
+    ├── desktop-2.png
+    ├── desktop-3.png
+    ├── mobile-1.png
+    ├── mobile-2.png
+    └── mobile-3.png
+
 ---
 
 ## 🖼️ Screenshots
