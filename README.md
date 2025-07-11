@@ -79,10 +79,7 @@ daraz-homepage-clone/
 
 ## 🔗 Live Preview
 
-If you have deployed your site:
-
-👉 [Live Site](https://your-live-link.netlify.app)  
-(Replace with your actual Netlify or GitHub Pages link)
+👉 [Live Site](https://nafis-cse.github.io/daraz-homepage-clone)
 
 ---
 
