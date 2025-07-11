@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #e7e8ec;
+}
+.top-navbar{
+    height: 25px;
+    background-color: #f55524;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+   
+}
+.top-navbar p{
+    margin-right: 35px;
+}
+.navbar{
+    height: 75px;
+    background-color: #f55524;
+    display: flex;
+    align-items: center;
+    
+}
+header{
+position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 100;
+}
+#logo{
+    background-image: url("logo/logo.png");
+    background-size: cover;
+    height: 40px;
+    width: 127px;
+}
+.fa-cart-shopping{
+    color: white;
+    font-size: 35px;
+}
+.fa-magnifying-glass{
+   color: #f55524;
+}
+#search-logo{
+    height: 45px;
+    width: 45px;
+    background-color: #ffe1d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-bottom-right-radius: 4%;
+    border-top-right-radius: 4%;
+}
+#search{
+    display: flex;
+    width: 750px;
+    height: 45px;
+    margin-left: 80px;
+    margin-right: 60px;  
+}
+input{
+    width: 100%;
+    border: 0;
+    border-bottom-left-radius:2px;
+    border-top-left-radius: 2px;
+}
+
+.hero-img{
+    background-image: url("logo/add.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+.box1{
+    background-color: white;
+    height: 60px;
+    width: 95%;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.type{
+    font-size: 22px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+.div1{
+    position: relative;
+    left: 20px;
+    color: #f57224;
+    font-size: 14px;
+    font-weight: 800;
+}
+.div2{
+    position: absolute;
+    right: 50px;
+    color: #f57224;
+    font-size: 16px;
+    height: 35px;
+    width: 190px;
+    border: 1px solid #f57224;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+.box2{
+    width: 95%;
+    margin-left: 30px;
+    height: 290px;
+    background-color: white;
+    border-top: .5px solid black;
+    display: flex;
+}
+.sunglass{
+    height: 188px;
+    width: 188px;
+    background-image: url("product_img/sunglass.png");
+    background-size: cover;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.fan{
+    height: 188px;
+    width: 188px;
+    background-image: url("product_img/fan.png");
+    background-size: cover;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.charger{
+    height: 188px;
+    width: 188px;
+    background-image: url("product_img/charger.png");
+    background-size: cover;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.wash{
+    height: 188px;
+    width: 188px;
+    background-image: url("product_img/wash.png");
+    background-size: cover;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.viga{
+    height: 188px;
+    width: 188px;
+    background-image: url("product_img/viga.png");
+    background-size: cover;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.tws{
+    height: 188px;
+    width: 188px;
+    background-image: url("product_img/tws.png");
+    background-size: cover;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.info{
+    margin: 4px 8px 0px;
+}
+.data{
+    height: 36px;
+    font-size: 14px;
+}
+
+p1{
+    font-size: 18px;
+    color: #f55524;
+}
+p2{
+    font-size: 12px;
+}
+.product:hover{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0,.3);
+    z-index: 2;
+    cursor: pointer;
+}
+.div3{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-left: 15px;
+}
+.category{
+    height: 150px;
+    width: 10.5%;
+    text-align: center;  
+}
+.category div{
+    margin-left: 10px;
+}
+#anklets{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/anklets.png");
+    background-size: cover;
+}
+#kitchen{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/kitchen.png");
+    background-size: cover;
+}
+#goat{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/goat.png");
+    background-size: cover;
+}
+#watering{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/watering.png");
+    background-size: cover;
+}
+#zakat{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/zakat.png");
+    background-size: cover;
+}
+#pools{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/pools.png");
+    background-size: cover;
+}
+#lighting{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/lighting.png");
+    background-size: cover;
+}
+#glassware{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/glassware.png");
+    background-size: cover;
+}
+#care{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/care.png");
+    background-size: cover;
+}
+#suits{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/suits.png");
+    background-size: cover;
+}
+#batteries{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/batteries.png");
+    background-size: cover;
+}
+#drones{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/drones.png");
+    background-size: cover;
+}
+#necklaces{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/necklaces.png");
+    background-size: cover;
+}
+#guiter{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/guiter.png");
+    background-size: cover;
+}
+#download{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/downloads.png");
+    background-size: cover;
+}
+#software{
+    width: 100px;
+    height: 100px;
+    background-image: url("product_img/software.png");
+    background-size: cover;
+}
+.load_more{
+    border: 1px solid #1a9cb8;
+    color: #1a9cb8;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 387px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer p{
+    color: #0f136d;
+    font-weight: 100;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+li{
+    list-style-type: none;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+.app{
+    width: 594px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.msg p1{
+    font-size: 20px;
+}
+.msg p2{
+    font-size: 17px;
+    color: #0f136d;
+}
+.daraz{
+    background-image: url("logo/daraz.png");
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+}
+.store{
+    background-image: url("logo/store.png");
+    background-size: cover;
+    width: 126px;
+    height: 42px;
+    cursor: pointer;
+}
+.play{
+    background-image: url("logo/play.png");
+    background-size: cover;
+    width: 126px;
+    height: 42px;
+    cursor: pointer;
+}
+.gallery{
+    background-image: url("logo/gallery.png");
+    background-size: cover;
+    width: 126px;
+    height: 42px;
+    cursor: pointer;
+}
+.bottom{
+    width: 100%;
+    /* height: 160px; */
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.payment{
+    display: flex;
+    width: 360px;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.payment p{
+    width: 100%;
+}
+.cod{
+    height: 28px;
+    width: 46px;
+    background-image: url("logo/cod.png");
+    background-size: cover;
+}
+.visa{
+    height: 28px;
+    width: 46px;
+    background-image: url("logo/visa.png");
+    background-size: cover;
+}
+.bkash{
+    height: 28px;
+    width: 46px;
+    background-image: url("logo/bkash.png");
+    background-size: cover;
+}
+.card{
+    height: 28px;
+    width: 48px;
+    background-image: url("logo/card.png");
+    background-size: cover;
+}
+.nagad{
+    height: 28px;
+    width: 48px;
+    background-image: url("logo/nagad.png");
+    background-size: cover;
+}
+.ae{
+    height: 28px;
+    width: 48px;
+    background-image: url("logo/ae.png");
+    background-size: cover;
+}
+.easy{
+    height: 28px;
+    width: 48px;
+    background-image: url("logo/easy.png");
+    background-size: cover;
+}
+.any{
+    height: 28px;
+    width: 48px;
+    background-image: url("logo/any.png");
+    background-size: cover;
+}
+.rocket{
+    height: 28px;
+    width: 48px;
+    background-image: url("logo/rocket.png");
+    background-size: cover;
+}
+.pci{
+    height: 28px;
+    width: 48px;
+    background-image: url("logo/pci.png");
+    background-size: cover;
+}
+.id{
+    margin-top: 30px;
+}
+.verify{
+    margin-top: 30px;
+}
+.id div{
+    color: #999999;
+}
+@media(max-width:700px){
+    .top-navbar{
+        height: 10px;
+        font-size: 8px;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .top-navbar p{
+        margin-right: 5px;
+    }
+    #logo{
+        height: 20px;
+        width: 60px;
+    }
+    #search{
+        width: 230px;
+        margin-left: 10px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    .navbar{
+        height: 40px;
+        width: 100%;
+    }
+    #search-logo{
+        height: 25px;
+    }
+    .fa-cart-shopping{
+    font-size: 15px;
+    margin-left: 0;
+    }
+    .box2{
+        overflow-x: auto;
+        margin-left: 0;
+        width: 100%;
+    }
+    .box1{
+        margin-left: 0;
+        width: 100%;
+    }
+    .hero-img{
+        height: 200px;
+        background-size:cover;
+    }
+    .div1{
+        margin-right: 0px;
+    }
+    .div3{
+        margin-left: 0;
+        width: 91%;
+    }
+    .category{
+        width: 25%;
+        height: 25%;
+        font-size: 10px;
+    }
+    .category div{
+        margin-left: 0;
+    }
+    .load_more{
+        width: 20vh;
+    }
+}
