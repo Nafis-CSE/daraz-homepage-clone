@@ -40,6 +40,7 @@ Responsive styles are handled using `@media(max-width: 700px)` for mobile views.
 
 ## 📁 Folder Structure
 
+```
 daraz-homepage-clone/
 ├── index.html
 ├── style.css
@@ -58,6 +59,7 @@ daraz-homepage-clone/
     ├── mobile-2.png
     └── mobile-3.png
 
+```
 ---
 
 ## 🖼️ Screenshots
